@@ -64,10 +64,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 ![screenshot homepagina Pringles](images/PringlesHome.png)
-![screenshot hamburgermenu](images/PringlesMenu.png)
 ![screenshot productenpagina](images/PringlesProducten.png)
 ![screenshot Pringles smaken](images/PringlesSmaken.png)
 ![screenshot contactpagina](images/PringlesContact.png)
 
 **Breakdown-schets(en):**
-![Breakdown schetsen Hompage + Smaken pagina Pringels](images/Breakdown-schets.png)
+![Breakdown schetsen](images/Breakdown-Schets.png)
