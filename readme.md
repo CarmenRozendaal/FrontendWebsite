@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** -Carmen Rozendaal-
+**Auteur:** Carmen Rozendaal
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -56,16 +56,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** -Blauw/Rood-
+**Je startniveau:** Blauw
 
-**Je focus:** -Surface plane-
+**Je focus:** Surface plane
 
-**Je opdracht:** -https://www.pringles.com/nl/home.html-
+**Je opdracht:** https://www.pringles.com/uk/home.html
+
+⋅⋅* Ik heb voor Pringles gekozen omdat ik een echte chips-liefhebber ben, verder is het een leuk onderwerp om de komende tijd aan te werken.
+⋅⋅* De huidige site van Pringles is nodig toe aan verbetering omdat hij niet zo van deze tij is, zo bevat het weinig animaties en is er niet veel gedaan aan de vormgeving. Ik wil leren hoe je o.a interacties kunt toepassen op een site dus daarom was de site van Pringles erg geschikt. 
 
 **Screenshot(s):**
-![screenshot homepagina Pringles](images/PringlesHome.png)
-![screenshot productenpagina](images/PringlesProducten.png)
-![screenshot Pringles smaken](images/PringlesSmaken.png)
+![screenshot homepagina Pringles](images/PringlesHome.jpg)
+![screenshot productenpagina](images/PringlesProducten.jpg)
+![screenshot Pringles smaken](images/PringlesSmaken.jpg)
+![screenshot Pringles detailpagina](images/PringlesDetail.jpg)
 ![screenshot contactpagina](images/PringlesContact.png)
 
 **Breakdown-schets(en):**
