@@ -3,7 +3,6 @@
   box-sizing:border-box; 
 }
 
-
 html {
   overflow-x: hidden;
 }
@@ -12,13 +11,13 @@ html {
 header {
   position: relative;
   background-color: #da2037;
-  border-bottom: 0.5em solid #252525;
+  border-bottom: 0.3em solid #252525;
   height: 20.6vh;
 }
 
 header img {
   position: absolute;
-  top: 6.2vh;
+  top: 7vh;
   height: auto;
   width: 27vw;
   z-index: 1;
@@ -31,21 +30,22 @@ body {
 
 
 /* Navigatie */
-nav ul {
+nav ul { 
   display: flex;
+  margin-top: 0;
+  justify-content: space-around;
+  padding: 1em;
 }
 
 nav a {
+  display: flex;
   color: white;
-}
-
-nav img {
-  width: 10%;
-  height: 10%
+  text-decoration: none;
 }
 
 nav li {
   font-family: yantramanav, sans-serif;
+  font-size: 0.8em;
   list-style: none;
 }
 
@@ -54,18 +54,17 @@ nav li {
   height: 100%;
 } 
 
-/*  */
+/* broodtekst */
 /* font-family = Andes, deze kost geld */
 
 h1 {
   font-family: yantramanav, sans-serif, bold;
   font-size: 24px;
   text-align: left;
-  margin-top: 4em;
+  margin-top: 5em;
   padding: 0% 5%;
   color: #4c4c4c;
 }
-
 
 h2 {
   font-family: yantramanav, sans-serif;
@@ -73,6 +72,14 @@ h2 {
   text-align: left;
   padding: 0% 5%;
   color: #4c4c4c;
+}
+
+h3 {
+  font-family: yantramanav, sans-serif;
+  font-size: 12px;
+  color:#da2037;
+  text-decoration-line: none;
+  margin: auto;
 }
 
 p {
@@ -83,23 +90,42 @@ p {
   color: #4C4C3D;
 }
 
-img {
-  width: 20%;
-  height: 20%;
+
+/* Productpagina */
+.arrow img {
+  width: 7%;
+  height: 7%;
+  margin: 7%;
+  float: right;
 }
 
-li {
+.smaken {
+  display: flex;
+  justify-content: space-around;
+  margin: 2em;
+}
+
+.smaken img {
+  display: flex;
+  width: 50%;
+  height: auto;
+  margin: 0;
+}
+
+.smaken li {
+  display: flex;
+  width: 100%;
+  height: auto;
   list-style: none;
 }
 
-h3 {
-  font-family: yantramanav, sans-serif;
-  font-size: 12px;
-  color:#da2037;
-  font-weight: 400;
-  text-decoration-line: none;
+.smakentekst ul {
+  display: flex;
+  margin-top: 0;
+  justify-content: space-around;
+  padding: 1em;
+  text-decoration: none;
 }
-
 
 /* detailpagina */
 .detail {
@@ -116,27 +142,47 @@ h3 {
   left: calc(50% - 3em);
   bottom: -5em;
   max-width: 100%;
-  width: 5em;
+  width: 6em;
   height: auto;
   border: 0.2em solid #da2037;
 }
 
-.social img {
-  width: 20%;
-  height: 20%;
+.social {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
 }
 
+.social img {
+  width: 2em;
+  height: auto;
+}
 
 /* Footer */
 footer {
-  background-color:#252525;
+  text-align: center;
+  background-color: #252525;
+}
+
+footer ul {
+  padding: 2em 1em;
 }
 
 footer a {
-  color: #fff;
+  font-family: yantramanav, sans-serif;
+  font-size: 12px;
+  color: #fff; 
+  text-decoration: none;
+  display: flex;
+  justify-content: center; 
 }
 
-footer img {
+footer li {
+  list-style: none;
+}
+
+footer li img {
   width: 50%;
   height: 50%;
+  margin: 1em auto 0 auto;
 }

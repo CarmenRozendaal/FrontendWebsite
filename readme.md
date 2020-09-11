@@ -60,10 +60,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** Surface plane
 
-**Je opdracht:** https://www.pringles.com/uk/home.html
+**Je opdracht:** https://www.pringles.com/nl/home.html
 
-⋅⋅* Ik heb voor Pringles gekozen omdat ik een echte chips-liefhebber ben, verder is het een leuk onderwerp om de komende tijd aan te werken.
-⋅⋅* De huidige site van Pringles is nodig toe aan verbetering omdat hij niet zo van deze tij is, zo bevat het weinig animaties en is er niet veel gedaan aan de vormgeving. Ik wil leren hoe je o.a interacties kunt toepassen op een site dus daarom was de site van Pringles erg geschikt. 
+* Ik heb voor Pringles gekozen omdat ik een echte chips-liefhebber ben, verder is het een leuk onderwerp om de komende tijd aan te werken.
+
+* De huidige site van Pringles is nodig toe aan verbetering omdat hij niet zo van deze tij is, zo bevat het weinig animaties en is er niet veel gedaan aan de vormgeving. Ik wil leren hoe je o.a interacties kunt toepassen op een site dus daarom was de site van Pringles erg geschikt. 
 
 **Screenshot(s):**
 ![screenshot homepagina Pringles](images/PringlesHome.jpg)
