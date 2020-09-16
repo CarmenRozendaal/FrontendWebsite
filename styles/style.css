@@ -19,7 +19,7 @@ header img {
   position: absolute;
   top: 7vh;
   height: auto;
-  width: 27vw;
+  width: 35vw;
   z-index: 1;
 }
 
@@ -49,6 +49,14 @@ nav li {
   list-style: none;
 }
 
+.hamburger {
+  position: absolute;
+  right: 3vh;
+  width: 3em;
+  height: auto;
+}
+
+/* header */
 .banner {
   width: 100%;
   height: 100%;
@@ -101,30 +109,35 @@ p {
 
 .smaken {
   display: flex;
-  justify-content: space-around;
-  margin: 2em;
-}
-
-.smaken img {
-  display: flex;
-  width: 50%;
-  height: auto;
+  list-style: none;
   margin: 0;
+  padding: 1em;
 }
 
 .smaken li {
   display: flex;
-  width: 100%;
-  height: auto;
+  margin: 0 auto;
   list-style: none;
 }
 
-.smakentekst ul {
+.smaken img {
+  width: 4.5em;
+  margin: 0 auto;
+  height: auto;
+}
+
+.smakentekst {
   display: flex;
-  margin-top: 0;
-  justify-content: space-around;
-  padding: 1em;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 5%;
   text-decoration: none;
+  list-style: none;
+}
+
+.smakentekst li {
+  padding: 0 1em;
+  margin: 0 auto;
 }
 
 /* detailpagina */
@@ -165,7 +178,7 @@ footer {
 }
 
 footer ul {
-  padding: 2em 1em;
+  padding: 1em;
 }
 
 footer a {
