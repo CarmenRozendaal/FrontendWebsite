@@ -4,7 +4,7 @@
 
 ## Bronnenlijst
 1. -bron 1: Pringles website, via https://www.pringles.com/nl/home.html. Geraadpleegd op 01-09-2020-
-2. -bron 2- Markdown cheat cheet, via (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+2. -bron 2- Markdown cheat cheet, via https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 3. -...-
 
 
@@ -34,7 +34,7 @@
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
-Ik ben deze week aan de slag gegaan met position> en flexbox> en het een begin gemaakt aan het toepassen van javascript op de navigatie. 
+Ik ben deze week aan de slag gegaan met position> en flexbox> en heb ik een begin gemaakt aan het toepassen van javascript op de navigatie. 
 
 Ik ben begonnen met het logo te positioneren op de goede plek, dit was nog best lastig aangezien daardoor alles ging verschuiven. Ik heb mijn klasgenoot Danny uiteindelijk om hulp gevraagd aangezien hij in zijn Lays-site hetzelfde principe moest doen met het logo.
 
@@ -44,10 +44,10 @@ Ook had ik in html alle producten achter elkaar gezet in een list>, dit bleek ni
 Tot slot heb ik voor de navigatie ook nog flexbox> gebruikt zodat de elementen op een rij bovenaan de pagina kwamen te staan, vervolgens heb ik het hamburger icoontje toegevoegd door gebruik te maken van position> Javascript is me helaas niet gelukt deze week.
 
 **Screenshot(s):**
-![Fout positionering, Logo achter header](images/proces/procesWeek3.1.jpg)
-![Fout flexbox, producten heel klein](images/proces/procesWeek3.2.jpg)
-![Fout flexbox, tekst niet op een rij](images/proces/procesWeek3.3.jpg)
-![Resultaat navigatie](images/proces/procesWeek3Navigatie.jpg)
+![Fout positionering, Logo achter header](images/proces/procesweek3.1.jpg)
+![Fout flexbox, producten heel klein](images/proces/procesweek3.2.jpg)
+![Fout flexbox, tekst niet op een rij](images/proces/procesweek3.3.jpg)
+![Resultaat navigatie](images/proces/procesweek3Navigatie.jpg)
 
 
 ### Agenda voor meeting
