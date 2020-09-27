@@ -23,6 +23,7 @@ header img {
   z-index: 1;
 }
 
+/* Body */
 body {
   margin: 0;
   overflow-x: hidden;
@@ -30,115 +31,131 @@ body {
 
 
 /* Navigatie */
-nav ul { 
-  display: flex;
-  margin-top: 0;
-  justify-content: space-around;
-  padding: 1em;
-}
+.ham {
+    position: absolute;
+    /* always keep ham on top of everything */
+    z-index: 1000;
+    top: 20px;
+    right: 20px;
+    width: 36px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url("https://ljc-dev.github.io/testing0/ham.svg");
+    background-size: 100%;
+  }
 
-nav a {
-  display: flex;
-  color: white;
-  text-decoration: none;
-}
-
-nav li {
-  font-family: yantramanav, sans-serif;
-  font-size: 0.8em;
-  list-style: none;
-}
-
-.hamburger {
+.navbar {
   position: absolute;
-  right: 3vh;
-  width: 3em;
-  height: auto;
+  top: 5em;
+  left: 0;
+  background: black;
+  width: 100vw;
+  height: 40vh;
+  overflow: hidden;
+  color: white;
+  transform: translateY(-140%);
+  transition: transform 0.2s ease;
 }
 
-/* header */
-.banner {
+.showNav {
+  /* show the menu */
+  transform: translateY(0);
+}
+
+/* basic nav styling below */
+.navbar ul {
   width: 100%;
-  height: 100%;
+  height: 90%;
+  list-style: none;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar ul li a {
+  color: white;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  text-decoration: none;
+  font-family: 'yantramanav', sans-serif, bold;
+  font-size: 14pt;
+}
+
+
+/* main */
+main img {
+  width: 100%;
+  height: auto;
 } 
 
-/* broodtekst */
-/* font-family = Andes, deze kost geld */
-
-h1 {
-  font-family: yantramanav, sans-serif, bold;
-  font-size: 24px;
-  text-align: left;
-  margin-top: 5em;
-  padding: 0% 5%;
-  color: #4c4c4c;
+/* uitklapmenu productenpagina */
+details {
+  border: grey 0.1em solid;
 }
 
-h2 {
-  font-family: yantramanav, sans-serif;
-  font-size: 24px;
-  text-align: left;
-  padding: 0% 5%;
-  color: #4c4c4c;
+details > summary{
+  font-family: 'yantramanav', sans-serif, bold;
+    font-size: 22pt;
+    text-align: left;
+    padding: 0;
+    color: #4c4c4c;
+    text-decoration-line: underline;
+    margin: 1em;
 }
 
-h3 {
-  font-family: yantramanav, sans-serif;
-  font-size: 12px;
-  color:#da2037;
-  text-decoration-line: none;
-  margin: auto;
-}
-
-p {
-  font-family: yantramanav, sans-serif;
-  font-size: 14px;
+details > p {
+  font-family: 'yantramanav', sans-serif;
+  font-size: 12pt;
   text-align: left;
-  padding: 0% 5%;
+  padding: 1em 2em;
   color: #4C4C3D;
 }
 
-
-/* Productpagina */
-.arrow img {
-  width: 7%;
-  height: 7%;
-  margin: 7%;
-  float: right;
-}
-
-.smaken {
+details > .smaken {
   display: flex;
+  justify-content: center;
   list-style: none;
   margin: 0;
-  padding: 1em;
+  padding-left: 0;
 }
 
-.smaken li {
+details > .smaken li {
   display: flex;
   margin: 0 auto;
   list-style: none;
 }
 
-.smaken img {
+details > .smaken img {
   width: 4.5em;
   margin: 0 auto;
   height: auto;
 }
 
-.smakentekst {
-  display: flex;
-  text-align: center;
-  margin: 0 auto;
-  padding: 0 5%;
-  text-decoration: none;
-  list-style: none;
+/* de pringles bussen staan op hun kop */
+.smaken img:hover {
+  transform: scale(-1)
 }
 
-.smakentekst li {
-  padding: 0 1em;
-  margin: 0 auto;
+details > .smakentekst {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  list-style: none;
+  padding: 1em;
 }
+
+details > .smakentekst li {
+  padding: 0 0.5em;
+  margin: 0 auto;
+  font-family: 'yantramanav', sans-serif;
+  font-size: 10pt;
+  color: #da2037;
+}
+
 
 /* detailpagina */
 .detail {
@@ -160,6 +177,24 @@ p {
   border: 0.2em solid #da2037;
 }
 
+h1 {
+  font-family: 'yantramanav', sans-serif, bold;
+  font-size: 22pt;
+  text-align: left;
+  padding: 4em 1em 0em 1em;
+  color: #4c4c4c;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: 'yantramanav', sans-serif;
+  font-size: 14px;
+  text-align: left;
+  padding: 1em 2em;
+  color: #4C4C3D;
+}
+
+
 .social {
   display: flex;
   justify-content: center;
@@ -175,19 +210,11 @@ p {
 footer {
   text-align: center;
   background-color: #252525;
-}
-
-footer ul {
   padding: 1em;
 }
 
-footer a {
-  font-family: yantramanav, sans-serif;
-  font-size: 12px;
-  color: #fff; 
-  text-decoration: none;
-  display: flex;
-  justify-content: center; 
+footer ul{
+  padding: 0;
 }
 
 footer li {
@@ -195,7 +222,16 @@ footer li {
 }
 
 footer li img {
-  width: 50%;
-  height: 50%;
+  height: auto;
+  width: auto;
+  max-width: 85%;
   margin: 1em auto 0 auto;
+}
+
+footer a {
+  font-family: yantramanav, sans-serif;
+  font-size: 14px;
+  color: #fff; 
+  text-decoration: none;
+  justify-content: center; 
 }
