@@ -29,7 +29,7 @@
 
 ### Stand van zaken
 Ik ben flink opgeschoten met mijn site, hij is nu geheel kloppend met het origineel. De Pringles-Bussen staan mooi op een rij, 
-de teksten eronder kloppen nu ook, elementen zoals het logo zijn goed gepositioneerd, ik heb een hamburgermenu gecreeerd en ook zitten de smaken nu in aparte uitklapmenuutjes (Hier heb ik gebruik gemaakt van het element details>, dit plaatst content in een hoekje en voegt daar een pointer aan toe). Ook heb ik gezorgt dat de site op het oog grotendeels responsive is.
+de teksten eronder kloppen nu ook, elementen zoals het logo zijn goed gepositioneerd, ik heb een hamburgermenu gecreeerd en ook zitten de smaken nu in aparte uitklapmenuutjes (Hier heb ik gebruik gemaakt van het element details>, dit plaatst content in een hokje en voegt daar een pointer aan toe). Ook heb ik gezorgt dat de site op het oog grotendeels responsive is.
 
 Mijn focus ligt nu op het animeren van mijn site, hier moet ik alleen nog even over nadenken over hoe en wat ik precies wil doen. Ik heb een klein beginnetje gemaakt door wanneer je met de muis hovert over de pringles-bussen, ze op hun kop gaan staan, dit vond ik wel een leuk effect. Ik heb dit gedaan door in css :transform te gebruiken en de bus te schalen naar -1.
 
@@ -43,18 +43,18 @@ Maar wanneer ik op mijn desktop de inspector-tool gebruik en hem zet op telefoon
 
 **Screenshot(s):**
 <p>
-    <img src="images/proces/procesweek5.jpg" widht="350" alt="Resultaat uitklapmenutjes deel 1" />
-    <img src="images/proces/procesweek5.2.jpg" widht="350" alt="Resultaat uitklapmenutjes deel 2" />
+    <img src="images/proces/procesweek5.jpg" width="350" alt="Resultaat uitklapmenutjes deel 1" />
+    <img src="images/proces/procesweek5.2.jpg" width="350" alt="Resultaat uitklapmenutjes deel 2" />
 </p>
 
 <p> 
-    <img src="images/proces/procesweek5.3.jpg" widht="350" alt="Resultaat hamburgermenu uitgeklapt" />
-    <img src="images/proces/procesweek5.4.jpg" widht="350" alt="Resultaat Pringles bussen + tekst op een rij" />
+    <img src="images/proces/procesweek5.3.jpg" width="350" alt="Resultaat hamburgermenu uitgeklapt" />
+    <img src="images/proces/procesweek5.4.jpg" width="350" alt="Resultaat Pringles bussen + tekst op een rij" />
 </p>
 
 <p>
-    <img src="images/proces/procesweek5.5.jpg" widht="350" alt="Resultaat detailpagina" />
-    <img src="images/proces/procesweek5.6.jpg" widht="350" alt="Micro-interactie toegepast, bussen op z'n kop door hover" />
+    <img src="images/proces/procesweek5.5.jpg" width="350" alt="Resultaat detailpagina" />
+    <img src="images/proces/procesweek5.6.jpg" width="350" alt="Micro-interactie toegepast, bussen op z'n kop door hover" />
 </p>
 
 <p>
