@@ -3,9 +3,9 @@
 
 
 ## Bronnenlijst
-1. -bron 1: Pringles website, via https://www.pringles.com/nl/home.html. Geraadpleegd op 01-09-2020-
-2. -bron 2- Markdown cheat cheet, via https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-3. -...-
+1. bron 1: Pringles website, via https://www.pringles.com/nl/home.html. Geraadpleegd op 01-09-2020
+2. bron 2: Markdown cheat cheet, via https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+3. bron 3: W3 schools, via https://www.w3schools.com/
 
 
 
@@ -42,24 +42,35 @@ Wat ik ook heb geleerd en eigenlijk erg gek vind, is dat wanneer ik mijn site op
 Maar wanneer ik op mijn desktop de inspector-tool gebruik en hem zet op telefoon, is er niks aan de hand. We dachten eerst dat het aan de height lag, die stond op auto en de ene stond in een a>. Maar nadat ik dit had aangepast was het op mijn telefoon niet onveranderd. Zo zie je maar dat niet alle browsers gelijk zijn en dit ook kan verschillen op devices.
 
 **Screenshot(s):**
-![Resultaat uitklapmenutjes deel 1](images/proces/procesweek5.jpg)
-![Resultaat uitklapmenuutjes deel 2](images/proces/procesweek5.2.jpg)
-![Resultaat hamburgermenu uitgeklapt](images/proces/procesweek5.3.jpg)
-![Resultaat Pringles bussen + tekst op een rij](images/proces/procesweek5.4.jpg)
-![Resultaat detailpagina](images/proces/procesweek5.5.jpg)
-![Kleine animatie toegepast, bussen op z'n kop door hover](images/proces/procesweek5.6.jpg)
-![Weergave Github site op telefoon](images/proces/procesweek5Telefoonweergave.jpg)
+<p>
+    <img src="images/proces/procesweek5.jpg" widht="350" alt="Resultaat uitklapmenutjes deel 1" />
+    <img src="images/proces/procesweek5.2.jpg" widht="350" alt="Resultaat uitklapmenutjes deel 2" />
+</p>
+
+<p> 
+    <img src="images/proces/procesweek5.3.jpg" widht="350" alt="Resultaat hamburgermenu uitgeklapt" />
+    <img src="images/proces/procesweek5.4.jpg" widht="350" alt="Resultaat Pringles bussen + tekst op een rij" />
+</p>
+
+<p>
+    <img src="images/proces/procesweek5.5.jpg" widht="350" alt="Resultaat detailpagina" />
+    <img src="images/proces/procesweek5.6.jpg" widht="350" alt="Micro-interactie toegepast, bussen op z'n kop door hover" />
+</p>
+
+<p>
+    <img src="images/proces/procesweek5Telefoonweergave.jpg" width="350" alt="Weergave Github site op telefoon" />
+</p>
 
 
 ### Agenda voor meeting
 1. Uitleg over de read-me, wat wordt er op het eind verwacht? 
 2. Hoe ver moet je met surface gaan, is er een minimaal aan animaties? 
 3. Eigen ding: Advies. beter animeren in css of javascript?
-4. Eigen ding: Hoe heete die site ook al weer waar je alle benamingen en elementen kunt vinden? Zijn er nog andere handige sites? 
+4. Eigen ding: Zijn er nog andere handige sites die ik kan gebruiken betreft code opzoeken? 
 
 
 ### Verslag van meeting
-...
+Het voortgangsgesprek met de studentassistenten Marvin en Nathan waren erg nuttig. Ik heb meer uitleg gekregen over hoe de readme moet worden geschreven en wat er eigenlijk van wordt verwacht. Ze vonden die van mij al erg goed alleen waren mijn foto's wel erg groot, hier kreeg ik de tip voor om deze te verkleinen, ik wist zelf niet dat dit kon dus dat was erg handig. Verder had ik nog wat vragen gesteld betreft de Surfaceplane en kwam er daardoor achter dat Javascript een must was bij de animaties en het vooral gaat om micro-interacties. Dit houdt in dat ik me moet focussen op het leuker maken van de site maar ook dat het dus een toevoeging heeft voor de gebruiker. Dit was handig om te weten want daardoor heb ik nu meer een beeld wat er van me wordt verwacht en kan ik me daar de rest van de weken op richten.
 
 
 ## Voortgang 1 (week 3)
@@ -75,10 +86,16 @@ Ook had ik in html alle producten achter elkaar gezet in een list>, dit bleek ni
 Tot slot heb ik voor de navigatie ook nog flexbox> gebruikt zodat de elementen op een rij bovenaan de pagina kwamen te staan, vervolgens heb ik het hamburger icoontje toegevoegd door gebruik te maken van position> Javascript is me helaas niet gelukt deze week.
 
 **Screenshot(s):**
-![Fout positionering, Logo achter header](images/proces/procesweek3.1.jpg)
-![Fout flexbox, producten heel klein](images/proces/procesweek3.2.jpg)
-![Fout flexbox, tekst niet op een rij](images/proces/procesweek3.3.jpg)
-![Resultaat navigatie](images/proces/procesweek3Navigatie.jpg)
+
+<p>
+    <img src="images/proces/procesweek3.1.jpg" width="350" alt="Fout positionering, Logo achter header" />
+    <img src="images/proces/procesweek3.2.jpg" width="350" alt="Fout flexbox, producten heel klein" />
+</p>
+
+<p>
+    <img src="images/proces/procesweek3.3.jpg" width="350" alt="Fout flexbox, tekst niet op een rij" />
+    <img src="images/proces/procesweek3Navigatie.jpg" width="350" alt="Resultaat navigatie" />
+</p>
 
 
 ### Agenda voor meeting
@@ -90,7 +107,6 @@ Tot slot heb ik voor de navigatie ook nog flexbox> gebruikt zodat de elementen o
 
 
 ### Verslag van meeting
-
 Ik heb veel gehad aan het voortgangsgesprek omdat ik hierdoor verder ben gekomen met mijn site. Ik heb door middel van flexbox de pringles bussen en de tekst nu naast elkaar gekregen, ook staan ze door gebruik van justify-content gecentreerd. Verder heb ik uitleg gekregen over hoe ik het hamburgermenu en de uitklapmenu'tjes bij de smaken, moest maken. Ik had in mijn html nog veel classes staan en ook maakte ik veel gebruik van sections, hier kreeg ik de tip voor om daar nog even naar te kijken of ik die wel echt nodig had.
 
 
@@ -104,9 +120,11 @@ Wat ging minder goed?
 Het lettertype dat door Pringles wordt gebruikt is een betaald lettertype, ik heb daarom een soortgelijk lettertype moeten zoeken op GoogleFonts/Dafont, dit koste wat tijd. Er stonden behoorlijk wat producten op de pagina en deze waren allemaal verschillend qwa grootte, dit was beetje vervelend betreft layout.
 
 **Screenshot(s):**
-![Resultaat navigatie en header productpagina](images/proces/procesWeek2.2.jpg)
-![Resultaat producten en footer productpagina](images/proces/procesWeek2.1.jpg)
-![Resultaat detailpagina](images/proces/procesWeek2.jpg)
+<p>
+    <img src="images/proces/procesWeek2.2.jpg" width="350" alt="Resultaat navigatie en header productpagina" />
+    <img src="images/proces/procesWeek2.1.jpg" width="350" alt="Resultaat producten en footer productpagina" />
+    <img src="images/proces/procesWeek2.jpg" width="350" alt="Resultaat detailpagina" />
+</p>
 
 **Vimeo link naar video resultaat week 2:** https://vimeo.com/458704175/c16d242628)
 
@@ -124,11 +142,14 @@ Het lettertype dat door Pringles wordt gebruikt is een betaald lettertype, ik he
 * De huidige site van Pringles is nodig toe aan verbetering omdat hij niet zo van deze tijd is, zo bevat het weinig animaties en is er niet veel gedaan aan de vormgeving. Ik wil leren hoe je o.a interacties kunt toepassen op een site dus daarom was de site van Pringles erg geschikt. 
 
 **Screenshot(s) huidige pagina's:**
-![screenshot homepagina Pringles](images/PringlesHome.jpg)
-![screenshot productenpagina](images/PringlesProducten.jpg)
-![screenshot Pringles smaken](images/PringlesSmaken.jpg)
-![screenshot Pringles detailpagina](images/PringlesDetail.jpg)
-![screenshot contactpagina](images/PringlesContact.png)
+<p>
+    <img src="images/PringlesHome.jpg" width="350" alt="screenshot homepagina Pringles" />
+    <img src="images/PringlesProducten.jpg" width="350" alt="screenshot productenpagina" />
+</p>
+
+<p>
+    <img src="images/PringlesSmaken.jpg" width="350" alt="screenshot Pringles smaken" />
+    <img src="screenshot Pringles smaken" width="350" alt="screenshot Pringles detailpagina" />
 
 **Breakdown-schets(en):**
 ![Breakdown schetsen](images/Breakdown-Schets.png)
