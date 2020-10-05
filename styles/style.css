@@ -12,7 +12,7 @@ header {
   position: relative;
   background-color: #da2037;
   border-bottom: 0.3em solid #252525;
-  height: 20.6vh;
+  height: 20vh;
 }
 
 header img {
@@ -30,30 +30,29 @@ body {
 }
 
 
-/* Navigatie */
+/* Navigatie, gekeken naar voorbeelden van code voor inspiratie via https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0 */
 #ham{
     position: absolute;
     z-index: 1000;
-    top: 20px;
-    right: 20px;
-    width: 36px;
-    height: 36px;
+    top: 1.2em;
+    right: 1.2em;
+    width: 2.3em;
+    height: 2.3em;
     border: none;
     cursor: pointer;
-    background-color: transparent;
     background-size: 100%;
   }
 
 nav {
   position: absolute;
-  top: 5em;
+  top: 7em;
   left: 0;
-  background: black;
+  background: #252525;
   width: 100vw;
-  height: 43vh;
+  height: 35vh;
   overflow: hidden;
   color: white;
-  transform: translateY(-140%);
+  transform: translateY(-150%);
   transition: transform 0.2s ease;
   z-index: 1;
 }
@@ -75,24 +74,33 @@ nav ul {
 nav ul li a {
   color: white;
   padding-bottom: 10px;
-  border-bottom: 2px solid black;
   text-decoration: none;
   font-family: 'yantramanav', sans-serif, bold;
   font-size: 14pt;
+  text-transform: uppercase;
 }
 
+
+/* pseudo classes nav links */
+nav a:hover {
+  color: #ffd503;
+}
+
+nav a:active {
+  color: #ffd503;
+}
 
 /* main */
 main img {
   width: 100%;
 } 
 
-/* uitklapmenu productenpagina */
+/* uitklapmenu productenpagina, gebruik gemaakt van het details-element, gevonden op https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details */
 details {
-  border: grey 0.1em solid;
+  border: #4C4C3D 0.1em solid;
 }
 
-details > summary{
+details > summary {
   font-family: 'yantramanav', sans-serif, bold;
     font-size: 22pt;
     text-align: left;
@@ -100,6 +108,17 @@ details > summary{
     color: #4c4c4c;
     text-decoration-line: underline;
     margin: 1em;
+}
+
+/* pseudo classes uitklapmenu */
+details > summary:hover {
+  background-color: #da2037;
+  color: white;
+}
+
+details > summary:active {
+  background-color: #da2037;
+  color: white;
 }
 
 details > p {
@@ -129,9 +148,9 @@ details > .smaken img {
   margin: 0 auto;
 }
 
-/* de pringles bussen staan op hun kop */
+/* Pseudo class images: de pringles bussen staan op hun kop bij hover */
 .smaken img:hover {
-  transform: scale(-1)
+  transform: scale(-1);
 }
 
 details > .smakentekst {
@@ -147,7 +166,7 @@ details > .smakentekst li {
   padding: 0 0.5em;
   margin: 0 auto;
   font-family: 'yantramanav', sans-serif;
-  font-size: 10pt;
+  font-size: 11pt;
   color: #da2037;
 }
 
