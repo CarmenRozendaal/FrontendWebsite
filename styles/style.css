@@ -39,7 +39,7 @@ body {
     width: 2.3em;
     height: 2.3em;
     border: none;
-    cursor: pointer;
+    cursor: hand;
     background-size: 100%;
   }
 
@@ -108,12 +108,15 @@ details > summary {
     color: #4c4c4c;
     text-decoration-line: underline;
     margin: 1em;
+    cursor: context-menu;
 }
+
 
 /* pseudo classes uitklapmenu */
 details > summary:hover {
   background-color: #da2037;
   color: white;
+  cursor: url("images/logo-Pringles.png");
 }
 
 details > summary:active {
