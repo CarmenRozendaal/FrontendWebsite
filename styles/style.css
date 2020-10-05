@@ -27,7 +27,7 @@ header img {
 body {
   margin: 0;
   overflow-x: hidden;
-  cursor: url("logo-Pringles.png");
+  cursor: auto;
 }
 
 
@@ -40,7 +40,6 @@ body {
     width: 2.3em;
     height: 2.3em;
     border: none;
-    cursor: hand;
     background-size: 100%;
   }
 
@@ -87,8 +86,9 @@ nav a:hover {
   color: #ffd503;
 }
 
-nav a:active {
+nav a.active {
   color: #ffd503;
+  cursor: default;
 }
 
 /* main */
@@ -112,15 +112,13 @@ details > summary {
     cursor: context-menu;
 }
 
-
 /* pseudo classes uitklapmenu */
 details > summary:hover {
   background-color: #da2037;
   color: white;
-  cursor: url("images/logo-Pringles.png");
 }
 
-details > summary:active {
+details > summary:focus {
   background-color: #da2037;
   color: white;
 }
@@ -134,44 +132,41 @@ details > p {
 }
 
 details > .smaken {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(7em, 1fr));
+  grid-gap: 2em;
+  padding: 0;
+  margin: 0 1em;
+  align-items: baseline;
+  text-align: center;
 }
 
 details > .smaken li {
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
+  margin-bottom: 3em;
   list-style: none;
-}
-
-details > .smaken img {
-  width: 4.5em;
-  margin: 0 auto;
-}
-
-/* Pseudo class images: de pringles bussen staan op hun kop bij hover */
-.smaken img:hover {
-  transform: scale(-1);
-}
-
-details > .smakentekst {
-  display: flex;
-  text-align: center;
-  margin: auto;
-  text-decoration: none;
-  list-style: none;
-  padding: 1em;
-}
-
-details > .smakentekst li {
-  padding: 0 0.5em;
-  margin: 0 auto;
   font-family: 'yantramanav', sans-serif;
   font-size: 11pt;
   color: #da2037;
+}
+
+details > .smaken img {
+  display: flex;
+  width: 4em;
+  transform: scale(-1);
+  margin: 0 auto;
+  padding-bottom: 0em;
+}
+
+/* Pseudo class images: de pringles bussen staan op hun kop bij hover */
+.smaken li:hover {
+  transform: scale(1.3);
+}
+
+.smaken img:hover {
+  transform: scale(1);
 }
 
 
