@@ -25,19 +25,51 @@
 Ik heb me de afgelopen week vooral gericht op het animeren van mijn website, hier was ik namelijk nog niet aan toe gekomen. 
 Ik wist nog niet goed wat ik moest gaan doen dus ben ik gaan kijken welke micro-interacties er al waren en welke ik dan zou kunnen toepassen op mijn website.
 Het hamburger-menu had ik al deels geanimeerd door een transitie eraan te geven waardoor die smooth in en uit schoof.
-Ik wil nog wat gaan doen met het hamburgermenu-icoon, het is nu nog een plaatje. Dit ga ik nog mee aan de slag.
+Ik wil nog wat gaan doen met het hamburgermenu-icoon, het is nu nog een plaatje. Hier ga ik nog mee aan de slag.
 
-Waar ik nogmeer mee bezig ben geweest is de toegankelijkheid, ik heb pseudo classes gegeven aan mijn navigatie en aan de uitklapmenu's van de smaken. Ik had wel moeite met de class :active, deze werkte bij sommige elementen niet.
+Waar ik nog meer mee bezig ben geweest is de toegankelijkheid, ik heb pseudo-classes gegeven aan mijn navigatie en aan de uitklapmenu's van de smaken. Ik had wel moeite met de class :active, deze werkte bij sommige elementen niet en ook had de browser een standaard :focus class die ik eigenlijk best irritant vond.
+
 
 ### Gesprek Marvin, studentassistent (05/10/2020)
-Er waren nog een aantal andere dingetjes die nog niet zo lekker in elkaar zaten, daarom besloot ik om Marvin een berichtje te sturen via Teams of hij even met me mee wilde kijken naar mijn site en mijn code. We hebben een uurtje gezeten en het was erg nuttig. Hij heeft me geholpen met 
+Er waren nog een aantal andere dingetjes die nog niet zo lekker in elkaar zaten aan mijn site, daarom besloot ik om Marvin een berichtje te sturen via Teams of hij even met me mee wilde kijken naar mijn site en mijn code. We hebben een uurtje gezeten en het was erg nuttig en gezellig. Hij heeft me advies gegeven over wat ik zou kunnen animeren, me aangeraden om de Pringles-bussen met de titels in een grid te zetten ipv flexbox en verder wat kleine bugs opgelost.
 
 
-Ik ben me daarna gaan focussen op de Pringles-Bussen op de productenpagina, ik wilde dat ze meer zouden opvallen en er speelser uitzagen. Ik heb ze voor de grap op hun kop geplaatst wanneer je hier met je muis overheen hovert kantelen de bussen en worden ze vergroot waardoor ze goed leesbaar zijn. Dit geeft een gek maar leuk effect.
+### Na het gesprek
+Ik heb Grid toegepast op de Pringles-Bussen met de bijbehorende titels en dat werkt inderdaad veel beter. Ook is mijn site nu meer responsive wat het geheel ook functioneler maakt. Ik heb de articles vervangen voor sections en snap nu beter het verschil.
 
-Op de detailpagina heb ik ook met de Pringles-Bus gespeeld, wanneer je nu met je muis hovert gaat de bus schudden. Net zoalang tot jij je muis er weer vanaf haald. Feit, dit kan je beter met je pringles bus niet doen want dan zijn al je pringles gebroken in 100 kleine stukjes ;)
+Daarna ben ik me gaan focussen op de micro-interacties, zo heb ik de Pringles-Bussen op de productenpagina aangepakt. Ik wilde dat ze meer zouden opvallen en er speelser uitzagen. Ik heb ze daarom voor de grap op hun kop geplaatst en wanneer je hier met je muis overheen hovert, kantelen de bussen en worden ze vergroot. Dit geeft een leuk effect.
+
+Op de detailpagina heb ik ook met de Pringles-Bus gespeeld, wanneer je nu met je muis hovert gaat de bus schudden. Net zolang tot jij je muis er weer vanaf haald. Feit, dit kan je beter niet met je Pringles bus doen want dan zijn al je Pringles gebroken in 100 kleine stukjes ;)
+
 
 ### Wat ging goed?
+De site is al kloppend met het orgineel en ook bijna af. Het is nu een kwestie van het toevoegen van de details en mijn eigen invulling eraan te geven. Het animeren ging er vlot en is erg leuk om mee bezig te zijn. Doordat ik nu ook Grid heb toegepast op mijn site heb ik nu meer kennis gekregen van de verschillende onderdelen. Ondanks dat ik toch een andere richting opga is het atijd fijn om hier toch wat over te weten.
+
+### Wat ging minder?
+Het nadeel van coderen vind ik nogsteeds dat wanneer er een klein foutje is of er iets veranderd, andere verschuiven of er niks gebeurd. Het werken aan mijn site duurde daarom soms langer dat nodig was, waardoor ik met andere vakken in de knoop kwam. Maar desondanks ben ik nogsteeds erg tevreden met het resultaat en het proces dat ik tijdens deze opdracht heb doorlopen.
+
+
+**Screenshot(s):**
+<p>
+    <img src="images/proces/procesweek6.jpg" width="350" alt="Uitklapmenu smaken" />
+    <img src="images/proces/procesweek6.1.jpg" width="350" alt="Navigatie met :active state" />
+</p>
+
+<p>
+    <img src="images/proces/procesweek6.2.jpg" width="350" alt="Uitklapmenu Rice smaken met :hover interactie " />
+    <img src="images/proces/procesweek6.3.jpg" width="350" alt="Schudden, Micro-interactie Pringeles Bus " />
+</p>
+
+
+### Agenda voor meeting
+1. Hamburger icoon is niet selecteerdbaar met de tab-toets, de items wel wanneer je deze uitklapt.
+2. Hoe maak je een hamburger-icoontje (dus 3 streepjes ) met html/css die je kan animeren? 
+3. Met @keyframes een plaatje zowel roteren als verplaatsen tegelijk? Dit deed hij bij mij niet.
+4. .... 
+
+
+### Verslag van meeting
+.........
 
 
 
