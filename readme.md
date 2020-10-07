@@ -21,7 +21,24 @@
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+Ik heb me de afgelopen week vooral gericht op het animeren van mijn website, hier was ik namelijk nog niet aan toe gekomen. 
+Ik wist nog niet goed wat ik moest gaan doen dus ben ik gaan kijken welke micro-interacties er al waren en welke ik dan zou kunnen toepassen op mijn website.
+Het hamburger-menu had ik al deels geanimeerd door een transitie eraan te geven waardoor die smooth in en uit schoof.
+Ik wil nog wat gaan doen met het hamburgermenu-icoon, het is nu nog een plaatje. Dit ga ik nog mee aan de slag.
+
+Waar ik nogmeer mee bezig ben geweest is de toegankelijkheid, ik heb pseudo classes gegeven aan mijn navigatie en aan de uitklapmenu's van de smaken. Ik had wel moeite met de class :active, deze werkte bij sommige elementen niet.
+
+### Gesprek Marvin, studentassistent (05/10/2020)
+Er waren nog een aantal andere dingetjes die nog niet zo lekker in elkaar zaten, daarom besloot ik om Marvin een berichtje te sturen via Teams of hij even met me mee wilde kijken naar mijn site en mijn code. We hebben een uurtje gezeten en het was erg nuttig. Hij heeft me geholpen met 
+
+
+Ik ben me daarna gaan focussen op de Pringles-Bussen op de productenpagina, ik wilde dat ze meer zouden opvallen en er speelser uitzagen. Ik heb ze voor de grap op hun kop geplaatst wanneer je hier met je muis overheen hovert kantelen de bussen en worden ze vergroot waardoor ze goed leesbaar zijn. Dit geeft een gek maar leuk effect.
+
+Op de detailpagina heb ik ook met de Pringles-Bus gespeeld, wanneer je nu met je muis hovert gaat de bus schudden. Net zoalang tot jij je muis er weer vanaf haald. Feit, dit kan je beter met je pringles bus niet doen want dan zijn al je pringles gebroken in 100 kleine stukjes ;)
+
+### Wat ging goed?
+
 
 
 

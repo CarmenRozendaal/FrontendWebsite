@@ -37,8 +37,8 @@ body {
     z-index: 1000;
     top: 1.2em;
     right: 1.2em;
-    width: 2.3em;
-    height: 2.3em;
+    width: 3em;
+    height: 3em;
     border: none;
     background-size: 100%;
   }
@@ -53,7 +53,7 @@ nav {
   overflow: hidden;
   color: white;
   transform: translateY(-150%);
-  transition: transform 0.2s ease;
+  transition: transform 1s ease-out;
   z-index: 1;
 }
 
@@ -162,7 +162,7 @@ details > .smaken img {
 
 /* Pseudo class images: de pringles bussen staan op hun kop bij hover */
 .smaken li:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 .smaken img:hover {
@@ -171,20 +171,57 @@ details > .smaken img {
 
 
 /* detailpagina */
-.detail {
+.detail img {
+  width: 100%;
+}
+
+.original {
   position: relative;
 }
 
-.detail img {
+
+div {
   position: absolute;
   left: calc(50% - 3em);
   top: -10em;
   max-width: 100%;
-  width: 6em;
+  width: 6.8em;
   height: auto;
   border: 0.2em solid #da2037;
 }
 
+/* original animatie */
+
+@keyframes original-animation {
+  0% {
+    transform:rotate(0);
+  }
+
+  25% {
+    transform:rotate(20deg);
+  }
+
+  50% {
+    transform:rotate(0);
+  }
+
+  75% {
+    transform:rotate(-20deg);
+  }
+
+  100% {
+    transform:rotate(0);
+  }
+}
+
+section.original:hover div {
+  animation-name: original-animation;
+  animation-duration:.5s;
+  animation-iteration-count:infinite;
+  animation-fill-mode: backwards;
+}
+
+/* Content */
 h1 {
   font-family: 'yantramanav', sans-serif, bold;
   font-size: 22pt;
@@ -202,7 +239,6 @@ p {
   color: #4C4C3D;
 }
 
-
 .social {
   display: flex;
   justify-content: center;
@@ -210,7 +246,8 @@ p {
 }
 
 .social img {
-  width: 2em;
+  width: 10%;
+  margin: 0 0.5em;
 }
 
 /* Footer */
