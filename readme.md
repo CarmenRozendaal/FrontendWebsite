@@ -43,7 +43,8 @@ Op de detailpagina heb ik ook met de Pringles-Bus gespeeld, wanneer je nu met je
 
 
 ### Wat ging goed?
-De site is al kloppend met het orgineel en ook bijna af. Het is nu een kwestie van het toevoegen van de details en mijn eigen invulling eraan te geven. Het animeren ging er vlot en is erg leuk om mee bezig te zijn. Doordat ik nu ook Grid heb toegepast op mijn site heb ik nu meer kennis gekregen van de verschillende onderdelen. Ondanks dat ik toch een andere richting opga is het atijd fijn om hier toch wat over te weten.
+De site is al kloppend met het orgineel en ook bijna af. Het is nu een kwestie van het toevoegen van de details en mijn eigen invulling eraan te geven. Het animeren ging erg vlot en is erg leuk om mee bezig te zijn. Doordat ik nu ook Grid heb toegepast op mijn site heb ik nu meer kennis gekregen van de verschillende onderdelen. Ook is mijn site nu goed te gebruiken op mijn mobiel.
+
 
 ### Wat ging minder?
 Het nadeel van coderen vind ik nogsteeds dat wanneer er een klein foutje is of er iets veranderd, andere verschuiven of er niks gebeurd. Het werken aan mijn site duurde daarom soms langer dat nodig was, waardoor ik met andere vakken in de knoop kwam. Maar desondanks ben ik nogsteeds erg tevreden met het resultaat en het proces dat ik tijdens deze opdracht heb doorlopen.
@@ -56,8 +57,8 @@ Het nadeel van coderen vind ik nogsteeds dat wanneer er een klein foutje is of e
 </p>
 
 <p>
-    <img src="images/proces/procesweek6.2.jpg" width="350" alt="Uitklapmenu Rice smaken met :hover interactie " />
-    <img src="images/proces/procesweek6.3.jpg" width="350" alt="Schudden, Micro-interactie Pringeles Bus " />
+    <img src="images/proces/procesweek6.2.jpg" width="350" alt="Uitklapmenu Rice smaken met :hover interactie" />
+    <img src="images/proces/procesweek6.3.jpg" width="350" alt="Schudden, Micro-interactie Pringeles Bus" />
 </p>
 
 
