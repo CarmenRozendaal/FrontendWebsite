@@ -32,53 +32,108 @@ body {
 
 
 /* Navigatie, gekeken naar voorbeelden van code voor inspiratie via https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0 */
-#ham{
-    position: absolute;
-    z-index: 1000;
-    top: 1.2em;
-    right: 1.2em;
-    width: 3em;
-    height: 3em;
-    border: none;
-    background-size: 100%;
-  }
+#hamburgermenu{
+  position: absolute;
+  z-index: 1000;
+  top: 1.2em;
+  right: 1.2em;
+  width: 3em;
+  height: 3em;
+  border: none;
+  background-size: 100%;
+}
 
 nav {
-  position: absolute;
-  top: 7em;
-  left: 0;
-  background: #252525;
-  width: 100vw;
-  height: 35vh;
-  overflow: hidden;
-  color: white;
-  transform: translateY(-150%);
-  transition: transform 1s ease-out;
-  z-index: 1;
+position: absolute;
+top: 7em;
+left: 0;
+background: #252525;
+width: 100vw;
+height: 44vh;
+overflow: hidden;
+color: white;
+transform: translateY(-150%);
+transition: transform 1s ease-out;
+z-index: 1;
 }
 
 .showNav {
-  transform: translateY(0);
+transform: translateY(0);
 }
 
 nav ul {
-  width: 100%;
-  height: 90%;
-  list-style: none;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-evenly;
-  align-items: center;
+width: 100%;
+height: 90%;
+list-style: none;
+display: flex;
+flex-flow: column nowrap;
+justify-content: space-evenly;
+align-items: center;
 }
 
 nav ul li a {
-  color: white;
-  padding-bottom: 10px;
-  text-decoration: none;
-  font-family: 'yantramanav', sans-serif, bold;
-  font-size: 14pt;
-  text-transform: uppercase;
+color: white;
+padding-bottom: 10px;
+text-decoration: none;
+font-family: 'yantramanav', sans-serif, bold;
+font-size: 14pt;
+text-transform: uppercase;
 }
+
+/*
+.streep1 {
+    position: absolute;
+    height: 0.5em;
+    width: 3em;
+    margin-top:3em;
+    right: 2em;
+    background-color: white;
+  }
+
+.streep2 {
+  position: absolute;
+  height: 0.5em;
+  width: 3em;
+  margin-top: 4.5em;
+  right: 2em;
+  background-color: white;
+}
+
+
+@keyframes streep1 {
+  0% {
+    transform: translate(0,0);
+  }
+  100% {
+    transform: translate(0,0);
+    transform: rotate(30deg);
+    transform-origin: left;
+  }
+}
+
+@keyframes streep2 {
+  0% {
+    transform: translate(0,0);
+  }
+  100% {
+    transform:translate(0,0);
+    transform:rotate(-30deg);
+    transform-origin: left;
+  }
+}
+
+nav.kruis span {
+  animation-duration: 2s;
+}
+
+nav.kruis span:first-of-type {
+  animation-name: streep1;
+}
+
+nav.kruis span:last-of-type {
+  animation-name: streep2;
+} */
+
 
 
 /* pseudo classes nav links */
@@ -191,7 +246,6 @@ div {
 }
 
 /* original animatie */
-
 @keyframes original-animation {
   0% {
     transform:rotate(0);

@@ -70,9 +70,7 @@ Het nadeel van coderen vind ik nogsteeds dat wanneer er een klein foutje is of e
 
 
 ### Verslag van meeting
-.........
-
-
+Ik heb tijdens het voortgangsgesprek vooral feedback ontvangen op mijn animaties die ik tot nu toe had en wat ik zoal zou kunnen toevoegen. Zo ga ik ervoor zorgen dat de Pringles-Bus op de detailpagina automatisch zijwaards gaat schudden en er dan een schud-geluid klinkt. Ik ga dus audio toevoegen. Ook ga ik proberen het patroon op de achtergrond te laten bewegen. Tot slot ga ik het pijltje bij de uitklapmenuutjes bij de smaken, veranderen in een snorretje, dat weer overeenkomt met het Pringles Logo. Dit wordt nog een uitdaging maar ik ga proberen dit alles voor elkaar te krijgenn met behulp van Keyframes. 
 
 
 ## Voortgang 2 (week 5)
