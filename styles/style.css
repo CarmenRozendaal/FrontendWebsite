@@ -191,6 +191,38 @@ details > .smaken img {
 
 
 /* detailpagina */
+img.tegels {
+  position: relative;
+  width: 100%;
+  max-height: 45vh;
+}
+
+@keyframes scrolling-achtergrond {
+
+  0% {
+    opacity:0%;
+  }
+
+  25% {
+    opacity: 0%;
+  }
+
+  50% {
+    opacity: 50%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+img.tegels {
+  animation-name: scrolling-achtergrond;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+
 .original {
   position: relative;
 }
@@ -204,6 +236,7 @@ div {
   height: auto;
   border: 0.2em solid #da2037;
 }
+
 
 /* original animatie 1, Pringles-bus schud zijwaards heen en weer */
 /* @keyframes original-animation {
@@ -307,14 +340,16 @@ p {
 }
 
 .social {
-  display: flex;
-  justify-content: center;
   margin: 1em;
 }
 
 .social img {
-  width: 10%;
+  width: 4em;
   margin: 0 0.5em;
+}
+
+.social img:hover {
+  opacity: 80%;
 }
 
 /* Footer */
