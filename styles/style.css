@@ -80,7 +80,7 @@ font-size: 14pt;
 text-transform: uppercase;
 }
 
-/*
+/* Geprobeerd om het hamburger menu te animeren, kruisje lukte maar het menu kwam niet tevoorschijn
 .streep1 {
     position: absolute;
     height: 0.5em;
@@ -135,7 +135,6 @@ nav.kruis span:last-of-type {
 } */
 
 
-
 /* pseudo classes nav links */
 nav a:hover {
   color: #ffd503;
@@ -158,13 +157,23 @@ details {
 
 details > summary {
   font-family: 'yantramanav', sans-serif, bold;
-    font-size: 22pt;
-    text-align: left;
-    padding: 0;
-    color: #4c4c4c;
-    text-decoration-line: underline;
-    margin: 1em;
-    cursor: context-menu;
+  font-size: 22pt;
+  text-align: left;
+  padding: 0;
+  color: #4c4c4c;
+  text-decoration-line: underline;
+  margin: 1em;
+  list-style-image: url(/images/snor.png);
+}
+
+details > summary::-webkit-details-marker {
+  background: url(/images/snor.png);
+  color:black;
+}
+
+summary:focus::-webkit-details-marker {
+  background: url(/images/snor.png);
+  color:black;
 }
 
 /* pseudo classes uitklapmenu */
@@ -173,10 +182,10 @@ details > summary:hover {
   color: white;
 }
 
-details > summary:focus {
+/* details > summary:focus {
   background-color: #da2037;
   color: white;
-}
+} */
 
 details > p {
   font-family: 'yantramanav', sans-serif;
@@ -245,8 +254,8 @@ div {
   border: 0.2em solid #da2037;
 }
 
-/* original animatie */
-@keyframes original-animation {
+/* original animatie 1, Pringles-bus schud zijwaards heen en weer */
+/* @keyframes original-animation {
   0% {
     transform:rotate(0);
   }
@@ -273,7 +282,46 @@ section.original:hover div {
   animation-duration:.5s;
   animation-iteration-count:infinite;
   animation-fill-mode: backwards;
+} */
+
+
+/* original animatie 2 */
+@keyframes original-rotate-animation {
+  0% {
+    transform:rotate(20deg);
+  }
+
+  50% {
+    transform:rotate(20deg);
+  }
+
+  100% {
+    transform:rotate(20deg);
+  }
 }
+
+@keyframes original-schud-animation {
+  0% {
+    transform: translateX(-30px) translateY(-30px); 
+  }
+
+  50% {
+    transform: translateX(20px) translateY(20px);
+  }
+
+  100% {
+    transform: translateX(-30px) translateY(-30px)
+  }
+}
+
+section.original div {
+  animation-name: original-rotate-animation, original-schud-animation;
+  animation-fill-mode: forwards,initial;
+  animation-duration: 3s;
+  animation-iteration-count:3;
+  animation-delay: 1s, 2s;
+}
+
 
 /* Content */
 h1 {
