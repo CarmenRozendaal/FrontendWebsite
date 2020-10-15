@@ -12,40 +12,44 @@ header {
   position: relative;
   background-color: #da2037;
   border-bottom: 0.3em solid #252525;
-  height: 20vh;
+  height: 16vh;
 }
 
 header img {
   position: absolute;
-  top: 7vh;
-  height: auto;
-  width: 35vw;
+  top: 4vh;
+  height: 25vh;
+  width: 20vh;
   z-index: 2;
+  max-height: 30vh;
+  max-width: 30vh;
 }
 
 /* Body */
 body {
   margin: 0;
   overflow-x: hidden;
-  cursor: auto;
+  cursor: default;
 }
 
 
 /* Navigatie, gekeken naar voorbeelden van code voor inspiratie via https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0 */
-#hamburgermenu{
+.hamburgermenu{
   position: absolute;
   z-index: 1000;
-  top: 1.2em;
-  right: 1.2em;
-  width: 3em;
-  height: 3em;
+  top: 1.4em;
+  right: 1.4em;
+  width: 4em;
+  height: 4em;
   border: none;
   background-size: 100%;
+  background-image: url('../images/Hamburger_icon.png');
 }
+
 
 nav {
 position: absolute;
-top: 7em;
+top: 6em;
 left: 0;
 background: #252525;
 width: 100vw;
@@ -59,6 +63,10 @@ z-index: 1;
 
 .showNav {
 transform: translateY(0);
+}
+
+.showClose {
+background-image: url('../images/Close_icon.png');
 }
 
 nav ul {
@@ -80,60 +88,6 @@ font-size: 14pt;
 text-transform: uppercase;
 }
 
-/* Geprobeerd om het hamburger menu te animeren, kruisje lukte maar het menu kwam niet tevoorschijn
-.streep1 {
-    position: absolute;
-    height: 0.5em;
-    width: 3em;
-    margin-top:3em;
-    right: 2em;
-    background-color: white;
-  }
-
-.streep2 {
-  position: absolute;
-  height: 0.5em;
-  width: 3em;
-  margin-top: 4.5em;
-  right: 2em;
-  background-color: white;
-}
-
-
-@keyframes streep1 {
-  0% {
-    transform: translate(0,0);
-  }
-  100% {
-    transform: translate(0,0);
-    transform: rotate(30deg);
-    transform-origin: left;
-  }
-}
-
-@keyframes streep2 {
-  0% {
-    transform: translate(0,0);
-  }
-  100% {
-    transform:translate(0,0);
-    transform:rotate(-30deg);
-    transform-origin: left;
-  }
-}
-
-nav.kruis span {
-  animation-duration: 2s;
-}
-
-nav.kruis span:first-of-type {
-  animation-name: streep1;
-}
-
-nav.kruis span:last-of-type {
-  animation-name: streep2;
-} */
-
 
 /* pseudo classes nav links */
 nav a:hover {
@@ -142,12 +96,12 @@ nav a:hover {
 
 nav a.active {
   color: #ffd503;
-  cursor: default;
 }
 
 /* main */
 main img {
   width: 100%;
+  max-height: 55vh;
 } 
 
 /* uitklapmenu productenpagina, gebruik gemaakt van het details-element, gevonden op https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details */
@@ -163,29 +117,31 @@ details > summary {
   color: #4c4c4c;
   text-decoration-line: underline;
   margin: 1em;
-  list-style-image: url(/images/snor.png);
+  list-style-image: url('../images/snor.png');
 }
 
 details > summary::-webkit-details-marker {
-  background: url(/images/snor.png);
-  color:black;
+  background: url('../images/snor.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  color:transparent;
 }
 
 summary:focus::-webkit-details-marker {
-  background: url(/images/snor.png);
-  color:black;
+  background: url('../images/snor.png');
+  color:transparent;
 }
 
 /* pseudo classes uitklapmenu */
 details > summary:hover {
-  background-color: #da2037;
+  background-color: #ffd503;
   color: white;
 }
 
-/* details > summary:focus {
+details > summary:focus {
   background-color: #da2037;
   color: white;
-} */
+}
 
 details > p {
   font-family: 'yantramanav', sans-serif;
@@ -235,14 +191,9 @@ details > .smaken img {
 
 
 /* detailpagina */
-.detail img {
-  width: 100%;
-}
-
 .original {
   position: relative;
 }
-
 
 div {
   position: absolute;
@@ -275,17 +226,31 @@ div {
   100% {
     transform:rotate(0);
   }
-}
-
-section.original:hover div {
-  animation-name: original-animation;
-  animation-duration:.5s;
-  animation-iteration-count:infinite;
-  animation-fill-mode: backwards;
 } */
 
+/* original animatie 1, Pringles-bus schud verticaal op en neer */
+@keyframes original-schud-animation {
+  0% {
+    transform: translateY(-30px) translateY(-30px); 
+  }
 
-/* original animatie 2 */
+  50% {
+    transform: translateY(20px) translateY(20px);
+  }
+
+  100% {
+    transform: translateY(-30px) translateY(-30px)
+  }
+}
+
+section.original:active div {
+  animation-name: original-schud-animation;
+  animation-duration: .2s;
+  animation-iteration-count: 6;
+}
+
+
+/* original animatie 2
 @keyframes original-rotate-animation {
   0% {
     transform:rotate(20deg);
@@ -320,7 +285,7 @@ section.original div {
   animation-duration: 3s;
   animation-iteration-count:3;
   animation-delay: 1s, 2s;
-}
+} */
 
 
 /* Content */
