@@ -10,14 +10,45 @@
 
 
 ## Eindgesprek (week 7/8)
+Ik ben de laatste weken nog lekker aan de slag gegaan met mijn site. Ik heb de feedback die ik bij het voortgangsgesprek had ontvangen doorgevoerd, zo heb ik nu meerdere animatie gemaakt op mijn detailpagina. Ik heb bij de animatie o.a geexperiementeerd met het combineren van 2 Keyframes, het toevoegen van geluid en het gebruik van Javascript. Ook heb ik me bezig gehouden met de puntjes op de i betreft toegankelijkheid, ik heb hoverstates/focusstates en activestates toegepast gecheckt of alle afbeeldingen voorzien waren van een alt-text. Verder heb ik gezorgd dat de site nu meer responsive is van mobiel tot desktop.
 
--dit ging goed & dit was lastig-
+
+### Wat ging goed?
+Het was makkelijk om de huidige huisstijl van Pringles goed door te voeren in de site. Em wanneer je eenmaal weer doorhebt hoe html/css/javascript werkt, gaat het wel vlot. Verder ben ik erg tevreden over het eindresultaat, ik vind het een mooi re-design geworden en vind het een verbetering met het origineel. 
+
+
+### Wat ging minder?
+Ik had wat problemen met het pad naar een image toe, hierdoor had ik dan foutmeldingen of werkte de interactie niet. Dit heb ik dan ook in het channel moeten vragen aan de studentassistentes en die hielpen me goed. Wat ook wel lastig was, was het gebruik van classes verminderen, ik was dit namelijk erg gewend vanuit internetstandaarden en inleiding programeren. 
+
+Bijna alle dingen die ik wilde doen betreft het ontwerp in de site, zijn gelukt. Het enige jammere is dat het geluid van de animatie niet afspeeld wanneer ik de site laad op mijn telefoon, de animatie beweegd wel zoals die hoort. Op Desktop werkt dit allemaal weer wel, ik heb niet kunnen achterhalen waar de fout zit.
+
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+<p>
+    <img src="images/proces/Eind_Hamburgermenu.jpg" width="350" alt="Resultaat Hamburgermenu met activestate en close-icoon" />
+    <img src="images/proces/Eind_Mobiel1.jpg" width="350" alt="Resultaat Mobiel met hoverstate" />
+</p>
 
+<p>
+    <img src="images/proces/Eind_Mobiel2.jpg" width="350" alt="Resultaat Mobiel met micro-interactie na hover" />
+    <img src="images/proces/Eind_Mobiel3.jpg" width="350" alt="Resultaat Dichte uitklapmenu's" />
+</p>
 
+<p>
+    <img src="images/proces/Eind_Mobiel4.jpg" width="350" alt="Resultaat Mobiel, detailpagina met gestarte micro-interactie" />
+    <img src="images/proces/Eind_Mobiel5.jpg" width="350" alt="Resultaat Mobiel, detailpagina onderkant" />
+</p>
+
+<p>
+    <img src="images/proces/Eind_Tablet1.jpg" width="350" alt="Resultaat Tablet met uitgeklapte hamburgermenu" />
+    <img src="images/proces/Eind_Tablet2.jpg" width="350" alt="Resultaat Tablet, hamburgermenu gesloten" />
+</p>
+
+<p>
+    <img src="images/proces/Eind_Desktop1.jpg" width="350" alt="Resultaat Desktop" />
+    <img src="images/proces/Eind_Desktop2.jpg" width="350" alt="Resultaat Desktop, uitklapmenu met focusstate" />
+</p>
 
 ## Voortgang 3 (week 6)
 
@@ -82,7 +113,7 @@ de teksten eronder kloppen nu ook, elementen zoals het logo zijn goed geposition
 Mijn focus ligt nu op het animeren van mijn site, hier moet ik alleen nog even over nadenken over hoe en wat ik precies wil doen. Ik heb een klein beginnetje gemaakt door wanneer je met de muis hovert over de pringles-bussen, ze op hun kop gaan staan, dit vond ik wel een leuk effect. Ik heb dit gedaan door in css :transform te gebruiken en de bus te schalen naar -1.
 
 
-Wat vond ik lastig?
+### Wat vond ik lastig?
 Waar ik soms nog wel erg mee zat te worstelen is dat je heel snel fouten maakt in je code waardoor dan ineens je hele site uit elkaar valt, ik heb dit de afgelopen week een paar keer gehad en dat zorgde voor een hoop paniek. Zo was er een a> element die geen afsluitings-haakje had of had ik een typfout gemaakt in de naam van mijn afbeelding waardoor die niet te zien was. Ik had ook geen back-up gemaakt. Ik heb hiervan geleerd om voortaan geconcentreerder bezig te zijn tijdens het coderen en voortaan mijn versies in een aparte map op te slaan.
 
 
