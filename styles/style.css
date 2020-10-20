@@ -230,7 +230,7 @@ img.tegels {
 div {
   position: absolute;
   left: calc(50% - 3em);
-  top: -10em;
+  top: -12em;
   max-width: 100%;
   width: 6.8em;
   height: auto;
@@ -239,7 +239,7 @@ div {
 
 
 /* original animatie 1, Pringles-bus schud zijwaards heen en weer */
-/* @keyframes original-animation {
+@keyframes original-animation {
   0% {
     transform:rotate(0);
   }
@@ -259,7 +259,13 @@ div {
   100% {
     transform:rotate(0);
   }
-} */
+}
+
+section.original div {
+  animation-name: original-animation;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+}
 
 /* original animatie 1, Pringles-bus schud verticaal op en neer */
 @keyframes original-schud-animation {
@@ -276,10 +282,10 @@ div {
   }
 }
 
-section.original:active div {
+section.original:hover div {
   animation-name: original-schud-animation;
-  animation-duration: .2s;
-  animation-iteration-count: 6;
+  animation-duration: .3s;
+  animation-iteration-count: 4;
 }
 
 
@@ -365,6 +371,11 @@ footer ul{
 
 footer li {
   list-style: none;
+  font-family: yantramanav, sans-serif;
+  font-size: 14px;
+  color: #fff; 
+  text-decoration: none;
+  justify-content: center; 
 }
 
 footer li img {
@@ -380,4 +391,8 @@ footer a {
   color: #fff; 
   text-decoration: none;
   justify-content: center; 
+}
+
+footer a:hover {
+  color:#ffd503;
 }

@@ -30,4 +30,4 @@ function shaken(event) {
   ShakeAudio.play();
 }
 
-PringlesBus.addEventListener('click',shaken);
+PringlesBus.addEventListener("mouseover",shaken);
