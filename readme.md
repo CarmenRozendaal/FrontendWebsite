@@ -228,7 +228,7 @@ Het lettertype dat door Pringles wordt gebruikt is een betaald lettertype, ik he
 
 <p>
     <img src="images/PringlesSmaken.jpg" width="350" alt="screenshot Pringles smaken" />
-    <img src="screenshot Pringles smaken" width="350" alt="screenshot Pringles detailpagina" />
+    <img src="images/PringlesDetail.jpg" width="350" alt="screenshot Pringles detailpagina" />
 
 **Breakdown-schets(en):**
 ![Breakdown schetsen](images/Breakdown-Schets.png)
